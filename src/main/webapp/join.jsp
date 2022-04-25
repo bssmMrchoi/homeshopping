@@ -15,7 +15,7 @@
 	
 	<section>
 		<h2><b>홈쇼핑 회원 등록</b></h2><br>
-		<form method="post" action="action.jsp">
+		<form method="post" action="action.jsp" name="frm">
 		<input type="hidden" name="mode" value="insert">
 			<table>
 <%
@@ -66,7 +66,7 @@ try {
 			</tr>
 			<tr>
 				<td colspan="2">
-				<input type="submit" value="등록" onclick="joinCheck()">
+				<input type="submit" value="등록" onclick="return joinCheck()">
 				<input type="button" value="조회" onclick="search()">
 				</td>
 			</tr>
