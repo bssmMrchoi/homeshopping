@@ -6,7 +6,7 @@ function joinCheck() {
 	}
 	if(document.frm.phone.value.length == 0) {
 		alert("회원전화가 입력되지 않았습니다.");
-		frm.custphone.focus();
+		frm.phone.focus();
 		return false;
 	}
 	if(document.frm.address.value.length == 0) {
